@@ -1,0 +1,6 @@
+defect_id,title,description,component,status
+DEF-1042,Checkout times out after payment authorization,Some shoppers see a timeout after payment is authorized and may retry checkout.,Payments,Open
+DEF-1088,Session expires during account sign-in,A subset of users are returned to the login screen while signing in after a long idle period.,Identity,In Progress
+DEF-1116,Profile avatar is incorrectly aligned on mobile,The profile image is shifted on smaller Android and iOS screens. No data is affected.,Mobile,Resolved
+DEF-1170,Order API intermittently returns a server error,The order endpoint occasionally returns HTTP 500 under high request volume.,API Platform,Open
+
